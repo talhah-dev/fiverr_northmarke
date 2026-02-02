@@ -1,11 +1,11 @@
 const navbar = document.getElementById("navbar");
 
 navbar.innerHTML = `
-<header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+<header class="sticky top-0 z-50 bg-white">
   <nav class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="flex h-16 md:h-20 items-center justify-between">
       <a href="index.html" class="flex items-center gap-3">
-        <img src="assets/northmarke-logo.jpg" class="h-10 md:h-12 w-auto" alt="Northmarke Group">
+        <img src="/docs/assets/logo.png" class="h-10 md:h-12 w-auto" alt="Northmarke Group">
       </a>
 
       <div class="hidden lg:flex items-center gap-8">
@@ -17,7 +17,7 @@ navbar.innerHTML = `
 
       <div class="hidden lg:flex items-center gap-3">
         <a href="contact.html"
-          class="inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-900/20">
+          class="inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 text-sm font-semibold text-white transition hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-900/20">
           Get in touch
           <i class="fa-solid fa-arrow-right"></i>
         </a>
@@ -27,7 +27,7 @@ navbar.innerHTML = `
         class="lg:hidden inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-3 py-2 text-slate-900 hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-900/10"
         aria-controls="mobileNav" aria-expanded="false">
         <i id="navOpenIcon" class="fa-solid fa-bars"></i>
-        <i id="navCloseIcon" class="fa-solid fa-xmark hidden"></i>
+        <i id="navCloseIcon" class="fa-solid fa-xmark !hidden"></i>
       </button>
     </div>
 
@@ -50,7 +50,7 @@ navbar.innerHTML = `
             class="mt-1 flex items-center justify-between rounded-xl px-3 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50">
             <span class="flex items-center gap-3">
               <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-slate-900/10 text-slate-900">
-                <i class="fa-solid fa-grid-2"></i>
+                <i class="fa-solid fa-bolt"></i>
               </span>
               Services
             </span>

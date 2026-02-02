@@ -6,7 +6,7 @@ const bottomToTopScroll = document.getElementById("bottomToTopScroll");
 
 bottomToTopScroll.innerHTML = `
 <div id="toTopBtn"
-  class="fixed bottom-5 right-5 z-40 w-12 h-12 rounded-full bg-[#008DEB] text-white flex items-center justify-center cursor-pointer shadow-lg transition-all duration-500 opacity-0 translate-y-4 pointer-events-none hover:bg-[#01395E]">
+  class="fixed bottom-5 right-5 z-40 w-12 h-12 rounded-full bg-slate-900 text-white flex items-center justify-center cursor-pointer shadow-lg transition-all duration-500 opacity-0 translate-y-4 pointer-events-none hover:bg-[#01395E]">
   <i class="fa-solid fa-angle-up"></i>
 </div>
 `

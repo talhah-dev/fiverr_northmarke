@@ -73,22 +73,18 @@
 
     <div id="navbar" class=""></div>
 
-    <main class="overflow-hidden">
-        <!-- HERO SECTION (Home Page) -->
+    <main class="overflow-hidden bg-white">
         <section class="relative overflow-hidden bg-white">
-            <!-- Decorative background -->
             <div class="pointer-events-none absolute inset-0">
-                <div class="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-slate-100 blur-2xl"></div>
-                <div class="absolute -bottom-28 -left-28 h-80 w-80 rounded-full bg-slate-100 blur-2xl"></div>
+                <!-- <div class="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-slate-100 blur-2xl"></div>
+                <div class="absolute -bottom-28 -left-28 h-80 w-80 rounded-full bg-slate-100 blur-2xl"></div> -->
                 <div
                     class="absolute left-1/2 top-0 h-px w-[1200px] -translate-x-1/2 bg-gradient-to-r from-transparent via-slate-200 to-transparent">
                 </div>
             </div>
 
             <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <!-- Hero content -->
                 <div class="grid items-center gap-10 py-10 md:grid-cols-2 md:py-16">
-                    <!-- Left -->
                     <div class="animate-fade-up">
                         <p
                             class="inline-flex items-center gap-2 rounded-full bg-slate-100 px-4 py-2 text-sm font-semibold text-slate-800">
@@ -96,7 +92,7 @@
                             Secure • Compliant • Mission-Ready
                         </p>
 
-                        <h1 class="mt-5 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
+                        <h1 class="mt-5 text-4xl font-bold tracking-tight leading-tight text-slate-900 sm:text-5xl">
                             Tailor-Made Guidance <span class="text-slate-700">and Proven Results</span>
                         </h1>
 
@@ -115,12 +111,11 @@
 
                             <a href="services.html"
                                 class="inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-sm transition hover:border-slate-400 hover:bg-slate-50">
-                                <i class="fa-solid fa-grid-2"></i>
+                                <i class="fa-solid fa-bolt"></i>
                                 Explore services
                             </a>
                         </div>
 
-                        <!-- Quick trust points -->
                         <div class="mt-8 grid gap-4 sm:grid-cols-3">
                             <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
                                 <div class="flex items-center gap-2 text-slate-900">
@@ -148,12 +143,10 @@
                         </div>
                     </div>
 
-                    <!-- Right -->
                     <div class="relative animate-fade-up delay-100">
                         <div class="relative rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-                            <!-- Decorative ring like FEDSched -->
                             <div
-                                class="pointer-events-none absolute -top-10 -right-10 h-32 w-32 rounded-full border-8 border-slate-100">
+                                class="pointer-events-none absolute -z-10 -top-10 -right-10 h-32 w-32 rounded-full border-8 border-slate-200">
                             </div>
 
                             <div class="flex items-start justify-between">
@@ -168,13 +161,11 @@
                                 </span>
                             </div>
 
-                            <!-- Hero visual (replace with your preferred image from /assets/compulsory) -->
                             <div class="mt-6 overflow-hidden rounded-2xl">
-                                <img src="assets/compulsory/abstract-1867866.jpg" alt="Abstract"
+                                <img src="/docs/assets/hero.jpg" alt="Abstract"
                                     class="h-72 w-full object-cover hero-float" loading="lazy" />
                             </div>
 
-                            <!-- Mini stats row (optional) -->
                             <div class="mt-6 grid gap-4 sm:grid-cols-3">
                                 <div class="rounded-2xl bg-slate-50 p-4">
                                     <p class="text-xs font-semibold text-slate-600">Focus</p>
@@ -191,17 +182,17 @@
                             </div>
                         </div>
 
-                        <!-- Subtle side badge -->
                         <div
-                            class="absolute -bottom-6 left-6 hidden rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm md:block">
+                            class="absolute -bottom-12 left-6 hidden rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm md:block">
                             <div class="flex items-center gap-3">
                                 <div
                                     class="flex h-9 w-9 items-center justify-center rounded-xl bg-slate-900 text-white">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
                                 <div>
-                                    <p class="text-sm font-semibold text-slate-900">Ready for Cloudflare Pages</p>
-                                    <p class="text-xs text-slate-600">Static HTML + Tailwind build</p>
+                                    <p class="text-sm font-semibold text-slate-900">Built for Reliability</p>
+                                    <p class="text-xs text-slate-600">Designed for performance, security, and
+                                        scalability</p>
                                 </div>
                             </div>
                         </div>
@@ -209,7 +200,6 @@
                 </div>
             </div>
 
-            <!-- Minimal animations (pure CSS, no JS) -->
             <style>
                 @keyframes fadeUp {
                     from {
@@ -247,7 +237,6 @@
                     animation: floaty 5s ease-in-out infinite;
                 }
 
-                /* Respect reduced motion */
                 @media (prefers-reduced-motion: reduce) {
 
                     .animate-fade-up,
@@ -260,7 +249,7 @@
 
 
 
-        <section class="relative bg-slate-50 py-16 md:py-24">
+        <section class="relative bg-slate-50 py-16 md:py-24 mt-20" >
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="mx-auto max-w-3xl text-center">
                     <p
@@ -269,7 +258,7 @@
                         What We Do
                     </p>
 
-                    <h2 class="mt-5 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+                    <h2 class="mt-5 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
                         Tailored Solutions Built for
                         <span class="text-slate-700">Real-World Impact</span>
                     </h2>
@@ -280,10 +269,10 @@
                     </p>
                 </div>
 
-                <div class="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                     <div
-                        class="group rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-                        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                        class="group rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                        <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
                             <i class="fa-solid fa-chess"></i>
                         </div>
 
@@ -304,8 +293,8 @@
                     </div>
 
                     <div
-                        class="group rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-                        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                        class="group rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                        <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
                             <i class="fa-solid fa-people-arrows"></i>
                         </div>
 
@@ -326,8 +315,8 @@
                     </div>
 
                     <div
-                        class="group rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-                        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                        class="group rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                        <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
                             <i class="fa-solid fa-gears"></i>
                         </div>
 
@@ -361,7 +350,7 @@
                         Impact
                     </p>
 
-                    <h2 class="mt-5 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+                    <h2 class="mt-5 text-3xl font-bold tracking-tight leading-tight text-slate-900 sm:text-4xl">
                         Measurable Outcomes That
                         <span class="text-slate-700">Move Organizations Forward</span>
                     </h2>
@@ -371,11 +360,11 @@
                     </p>
                 </div>
 
-                <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <div class="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
                     <div
                         class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
                         <div class="flex items-center justify-between">
-                            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
                                 <i class="fa-solid fa-bolt"></i>
                             </div>
                             <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
@@ -383,7 +372,7 @@
                             </span>
                         </div>
 
-                        <p class="mt-6 text-4xl font-extrabold tracking-tight text-slate-900">
+                        <p class="mt-6 text-4xl font-bold tracking-tight text-slate-900">
                             23%
                         </p>
                         <p class="mt-2 text-sm font-semibold text-slate-900">
@@ -397,7 +386,7 @@
                     <div
                         class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
                         <div class="flex items-center justify-between">
-                            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
                                 <i class="fa-solid fa-coins"></i>
                             </div>
                             <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
@@ -405,7 +394,7 @@
                             </span>
                         </div>
 
-                        <p class="mt-6 text-4xl font-extrabold tracking-tight text-slate-900">
+                        <p class="mt-6 text-4xl font-bold tracking-tight text-slate-900">
                             5.2%
                         </p>
                         <p class="mt-2 text-sm font-semibold text-slate-900">
@@ -419,7 +408,7 @@
                     <div
                         class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
                         <div class="flex items-center justify-between">
-                            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
                                 <i class="fa-solid fa-shield"></i>
                             </div>
                             <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
@@ -427,7 +416,7 @@
                             </span>
                         </div>
 
-                        <p class="mt-6 text-4xl font-extrabold tracking-tight text-slate-900">
+                        <p class="mt-6 text-4xl font-bold tracking-tight text-slate-900">
                             90%
                         </p>
                         <p class="mt-2 text-sm font-semibold text-slate-900">
@@ -441,7 +430,7 @@
                     <div
                         class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
                         <div class="flex items-center justify-between">
-                            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
                                 <i class="fa-solid fa-trophy"></i>
                             </div>
                             <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
@@ -449,7 +438,7 @@
                             </span>
                         </div>
 
-                        <p class="mt-6 text-4xl font-extrabold tracking-tight text-slate-900">
+                        <p class="mt-6 text-4xl font-bold tracking-tight text-slate-900">
                             85%
                         </p>
                         <p class="mt-2 text-sm font-semibold text-slate-900">
@@ -462,9 +451,6 @@
                 </div>
 
                 <div class="mt-10 text-center">
-                    <p class="text-sm text-slate-500">
-                        These figures are representative and may not reflect individual results.
-                    </p>
 
                     <div class="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
                         <a href="impact.html"
@@ -504,7 +490,7 @@
                             Our Process
                         </p>
 
-                        <h2 class="mt-5 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+                        <h2 class="mt-5 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
                             A Simple, Proven Way to
                             <span class="text-slate-700">Deliver Results</span>
                         </h2>
@@ -518,7 +504,7 @@
                         <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                             <a href="services.html"
                                 class="inline-flex items-center justify-center gap-2 rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800">
-                                <i class="fa-solid fa-grid-2"></i>
+                                <i class="fa-solid fa-bolt"></i>
                                 Explore Services
                             </a>
 
@@ -569,8 +555,8 @@
                                     class="group rounded-3xl border border-slate-200 bg-white p-6 transition hover:-translate-y-1 hover:shadow-md">
                                     <div class="flex items-start gap-4">
                                         <div
-                                            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                                            <span class="text-sm font-extrabold">1</span>
+                                            class="flex h-12 w-12 shrink-0 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                                            <span class="text-sm font-bold">1</span>
                                         </div>
                                         <div class="flex-1">
                                             <div class="flex items-center justify-between gap-4">
@@ -593,8 +579,8 @@
                                     class="group rounded-3xl border border-slate-200 bg-white p-6 transition hover:-translate-y-1 hover:shadow-md">
                                     <div class="flex items-start gap-4">
                                         <div
-                                            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                                            <span class="text-sm font-extrabold">2</span>
+                                            class="flex h-12 w-12 shrink-0 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                                            <span class="text-sm font-bold">2</span>
                                         </div>
                                         <div class="flex-1">
                                             <div class="flex items-center justify-between gap-4">
@@ -616,8 +602,8 @@
                                     class="group rounded-3xl border border-slate-200 bg-white p-6 transition hover:-translate-y-1 hover:shadow-md">
                                     <div class="flex items-start gap-4">
                                         <div
-                                            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                                            <span class="text-sm font-extrabold">3</span>
+                                            class="flex h-12 w-12 shrink-0 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                                            <span class="text-sm font-bold">3</span>
                                         </div>
                                         <div class="flex-1">
                                             <div class="flex items-center justify-between gap-4">
@@ -696,7 +682,7 @@
                             Trusted Partnerships
                         </p>
 
-                        <h2 class="mt-5 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+                        <h2 class="mt-5 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
                             Built on Trust.
                             <span class="text-slate-700">Focused on Results.</span>
                         </h2>
@@ -709,7 +695,7 @@
                         <div class="mt-8 rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
                             <div class="flex items-start gap-4">
                                 <div
-                                    class="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-900 text-white">
+                                    class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
                                     <i class="fa-solid fa-quote-left"></i>
                                 </div>
 
@@ -744,7 +730,7 @@
                     </div>
 
                     <div class="relative">
-                        <div class="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
+                        <div class="rounded-3xl z-10 relative border border-slate-200 bg-slate-50 p-8 shadow-sm">
                             <div class="flex items-center justify-between gap-4">
                                 <p class="text-lg font-bold text-slate-900">Our Partners</p>
                                 <span
@@ -806,7 +792,7 @@
                         </div>
 
                         <div
-                            class="pointer-events-none absolute -right-10 -top-10 hidden h-40 w-40 rounded-full border-8 border-slate-100 md:block">
+                            class="pointer-events-none absolute -right-10 -top-10 hidden h-40 w-40 rounded-full border-8 border-slate-200 md:block">
                         </div>
                     </div>
                 </div>
@@ -825,7 +811,7 @@
                         Core Capabilities
                     </p>
 
-                    <h2 class="mt-5 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+                    <h2 class="mt-5 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
                         Focused Expertise Across
                         <span class="text-slate-700">Critical Domains</span>
                     </h2>
@@ -990,7 +976,7 @@
                             Let’s Build What’s Next
                         </p>
 
-                        <h2 class="mt-5 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+                        <h2 class="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl">
                             Unlocking Your Business Potential,
                             <span class="text-white/80">Together.</span>
                         </h2>
@@ -1009,7 +995,7 @@
 
                             <a href="services.html"
                                 class="inline-flex items-center justify-center gap-2 rounded-full border border-white/25 bg-transparent px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:border-white/40 hover:bg-white/5">
-                                <i class="fa-solid fa-grid-2"></i>
+                                <i class="fa-solid fa-bolt"></i>
                                 View services
                             </a>
                         </div>

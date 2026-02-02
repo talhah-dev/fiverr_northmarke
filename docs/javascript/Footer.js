@@ -4,7 +4,7 @@ footer.innerHTML = `
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div class="grid gap-12 lg:grid-cols-12 lg:items-start">
       <div class="lg:col-span-7">
-        <h3 class="text-2xl font-extrabold text-slate-900">
+        <h3 class="text-2xl font-bold text-slate-900">
           Stay Informed
         </h3>
 
@@ -33,12 +33,6 @@ footer.innerHTML = `
 
         <div class="mt-10 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
           <div class="flex items-start gap-4">
-            <img
-              src="assets/northmarke-logo.jpg"
-              alt="Northmarke Group"
-              class="h-12 w-auto"
-            />
-
             <div>
               <p class="text-sm text-slate-600">
                 With decades of combined experience, Northmarke Group delivers secure,
@@ -52,7 +46,7 @@ footer.innerHTML = `
             <p class="text-sm font-semibold text-slate-900">
               Northmarke Group HQ
             </p>
-            <p class="mt-1 text-sm text-slate-600">
+            <p class="mt-1 text-sm text-slate-600 !leading-normal">
               3375 Ellicott Center Drive, Suite 201<br />
               Ellicott City, MD 21043<br />
               (410) 907-5496
@@ -60,7 +54,7 @@ footer.innerHTML = `
 
             <a
               href="contact.html"
-              class="mt-4 inline-flex items-center gap-2 rounded-full bg-slate-900 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-800"
+              class="mt-4 inline-flex items-center gap-2 rounded-full bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
             >
               <i class="fa-solid fa-paper-plane"></i>
               Contact Us
@@ -79,7 +73,7 @@ footer.innerHTML = `
             Leadership
           </span>
 
-          <p class="mt-4 text-xl font-extrabold text-slate-900">
+          <p class="mt-4 text-xl font-bold text-slate-900">
             Building a Stronger Future Through
             Effective Leadership
           </p>
@@ -101,17 +95,12 @@ footer.innerHTML = `
     </div>
   </div>
 
-  <footer class="mt-20 border-t border-slate-200 bg-white">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col items-center justify-between gap-4 py-8 text-sm text-slate-600 sm:flex-row">
+  <footer class="mt-20 border-t border-slate-200">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 font-medium lg:px-8">
+      <div class="flex flex-col items-center justify-center text-center gap-4 py-8 text-sm text-slate-600 sm:flex-row">
         <p>
           © <span id="year"></span> Northmarke Group. All rights reserved.
         </p>
-
-        <div class="flex items-center gap-5">
-          <a href="#" class="hover:text-slate-900">Privacy Policy</a>
-          <a href="#" class="hover:text-slate-900">Terms of Use</a>
-        </div>
       </div>
     </div>
   </footer>

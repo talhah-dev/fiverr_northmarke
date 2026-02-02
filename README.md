@@ -1,47 +1,26 @@
-# Northmarke Group – Website Content Repository
+# Northmarke Group (Static Website)
 
-Official website repository for Northmarke Group, containing site structure, content, and assets used for ongoing development and updates.
+A modern, responsive static HTML website built with **Tailwind CSS** + **Font Awesome** and designed to match the layout/feel of **federalschedules.com**, with content initially adapted from **amylestonegroup.com** (client will provide final content before delivery).
 
-This repository contains all written content for the Northmarke Group corporate website.  
-It is structured for use with Astro, Next.js, React, or any static site builder.
+This project is intended to be deployed on **Cloudflare Pages**.
 
-## Contact Information (For Developers & Website Builders)
+---
 
-The official contact information used across the website is stored in:
+## Pages Included (4 Total)
 
-- `/pages/contact.md` — Full contact page
-- `/pages/footer.md` — Footer block
-- `/components/contact-snippet.md` — Reusable contact snippet for sections/forms
+- `index.html` (Home)
+- `about.html` (About)
+- `services.html` (Services)
+- `impact.html` (Impact)
+- `contact.html` (Contact)
 
-## Structure
-- `/pages/home.md` — Homepage content  
-- `/pages/services.md` — Services page  
-- `/pages/impact.md` — Impact page  
-- `/pages/about.md` — About / Leadership  
-- `/assets/logo-instructions.md` — Branding & logo guidance  
+---
 
-## Editing
-Website builder or developers can pull directly from these Markdown files and map them into components or static pages.
+## Tech Stack
 
-## Brand Notes
-Northmarke Group delivers solutions across:
-- Technology (AWS, Azure, AI/ML, GovCloud)
-- Healthcare (staffing, care companion programs, health tech)
-- Logistics (supply chain, last-mile, distribution)
+- HTML5
+- Tailwind CSS (CDN or build version)
+- Font Awesome icons
+- Vanilla JavaScript (dynamic navbar, simple interactions)
+- Works great on Cloudflare Pages hosting
 
-## Proposed Repository Structure
-northmarke-website-content/
-│
-├── README.md
-│
-├── pages/
-│   ├── home.md
-│   ├── services.md
-│   ├── impact.md
-│   ├── about.md
-│   └── contact.md (optional placeholder)
-│
-└── assets/
-    └── logo-instructions.md
-
-Content written: January 2026.
