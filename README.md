@@ -1,9 +1,6 @@
 # Northmarke Group (Static Website)
 
-A modern, responsive static HTML website built with **Tailwind CSS** + **Font Awesome** and designed to match the layout/feel of **federalschedules.com**, with content initially adapted from **amylestonegroup.com** (client will provide final content before delivery).
-
-This project is intended to be deployed on **Cloudflare Pages**.
-
+A modern, responsive static HTML website built with **Tailwind CSS** + **Font Awesome**
 ---
 
 ## Pages Included (4 Total)
@@ -22,5 +19,4 @@ This project is intended to be deployed on **Cloudflare Pages**.
 - Tailwind CSS (CDN or build version)
 - Font Awesome icons
 - Vanilla JavaScript (dynamic navbar, simple interactions)
-- Works great on Cloudflare Pages hosting
 

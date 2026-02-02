@@ -47,10 +47,11 @@ footer.innerHTML = `
               Northmarke Group HQ
             </p>
             <p class="mt-1 text-sm text-slate-600 !leading-normal">
-              3375 Ellicott Center Drive, Suite 201<br />
-              Ellicott City, MD 21043<br />
-              (410) 907-5496
+              3375 Ellicott Center Dr<br />
+              Ellicott City, MD 21043-9998<br />
+              (410) 907-5496 • <a href="mailto:info@northmarke.com" class="hover:text-slate-900">info@northmarke.com</a>
             </p>
+
 
             <a
               href="contact.html"
