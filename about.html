@@ -41,7 +41,7 @@
   <meta name="color-scheme" content="light dark" />
 
   <!-- Favicon -->
-  <link rel="icon" href="/favicon.ico" />
+<link rel="icon" href="/docs/assets/favicon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -74,11 +74,14 @@
   <div id="navbar" class=""></div>
 
 
-  <main class="bg-white">
-    <section class="relative overflow-hidden bg-white">
+  <main class="bg-slate-950 text-white">
+    <!-- HERO -->
+    <section class="relative overflow-hidden bg-slate-950">
       <div class="pointer-events-none absolute inset-0">
+        <div class="absolute -right-24 -top-24 h-[520px] w-[520px] rounded-full bg-slate-700/20 blur-3xl"></div>
+        <div class="absolute -left-32 -bottom-40 h-[560px] w-[560px] rounded-full bg-slate-800/20 blur-3xl"></div>
         <div
-          class="absolute left-1/2 top-0 h-px w-[1200px] -translate-x-1/2 bg-gradient-to-r from-transparent via-slate-200 to-transparent">
+          class="absolute left-1/2 top-0 h-px w-[1200px] -translate-x-1/2 bg-gradient-to-r from-transparent via-white/10 to-transparent">
         </div>
       </div>
 
@@ -86,678 +89,546 @@
         <div class="grid items-center gap-12 py-12 md:py-16 lg:grid-cols-12">
           <div data-aos="fade-up" class="lg:col-span-7">
             <p
-              class="inline-flex items-center gap-2 rounded-full bg-slate-100 px-4 py-2 text-sm font-semibold text-slate-800">
-              <i class="fa-solid fa-building"></i>
+              class="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/15">
+              <i class="fa-solid fa-building text-sky-300"></i>
               About Us
             </p>
 
-            <h1 class="mt-6 text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl">
+            <h1 class="mt-6 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl">
               Secure, Reliable, and
-              <span class="text-slate-700">Community-Focused</span>
+              <span class="text-sky-200">Community-Focused</span>
             </h1>
 
-            <p class="mt-5 max-w-2xl text-lg leading-relaxed text-slate-600">
-              Northmarke Group is built to help organizations deliver meaningful outcomes through technology,
-              healthcare, logistics, and consulting services. We combine practical execution with a
-              compliance-aware mindset—so work moves forward with confidence.
+            <p class="mt-5 max-w-2xl text-lg leading-relaxed text-white/75">
+              Northmarke Group delivers mission-ready solutions across Technology, Healthcare, Logistics, and
+              Construction.
+              We combine certified technical expertise, compassionate care, and reliable operations—so work moves
+              forward
+              with confidence.
             </p>
 
             <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
               <a href="contact.html"
-                class="inline-flex items-center justify-center gap-2 rounded-full bg-slate-900 px-7 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-slate-900/20">
+                class="inline-flex items-center justify-center gap-2 rounded-full bg-sky-500 px-7 py-3 text-sm font-semibold text-slate-950 shadow-sm transition hover:bg-sky-400 focus:outline-none focus:ring-4 focus:ring-sky-500/30">
                 Talk to our team
                 <i class="fa-solid fa-arrow-right"></i>
               </a>
 
-              <a href="#our-story"
-                class="inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-7 py-3 text-sm font-semibold text-slate-900 shadow-sm transition hover:border-slate-400 hover:bg-slate-50">
-                Our story
+              <a href="#welcome-ceo"
+                class="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/5 px-7 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-white/10">
+                Welcome from our CEO
                 <i class="fa-solid fa-angle-down"></i>
               </a>
             </div>
 
             <div class="mt-10 grid gap-4 sm:grid-cols-3">
-              <div class="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+              <div class="rounded-3xl bg-white/5 p-5 ring-1 ring-white/10">
                 <div class="flex items-center gap-3">
-                  <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                    <i class="fa-solid fa-shield-halved"></i>
+                  <div
+                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                    <i class="fa-solid fa-shield-halved text-sky-200"></i>
                   </div>
                   <div>
-                    <p class="text-xs font-semibold text-slate-500">Mindset</p>
-                    <p class="mt-1 text-sm font-bold text-slate-900">Compliance</p>
+                    <p class="text-xs font-semibold text-white/60">Mindset</p>
+                    <p class="mt-1 text-sm font-bold text-white">Security &amp; Trust</p>
                   </div>
                 </div>
               </div>
 
-              <div class="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+              <div class="rounded-3xl bg-white/5 p-5 ring-1 ring-white/10">
                 <div class="flex items-center gap-3">
-                  <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                    <i class="fa-solid fa-bolt"></i>
+                  <div
+                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                    <i class="fa-solid fa-bolt text-orange-200"></i>
                   </div>
                   <div>
-                    <p class="text-xs font-semibold text-slate-500">Delivery</p>
-                    <p class="mt-1 text-sm font-bold text-slate-900">Execution First</p>
+                    <p class="text-xs font-semibold text-white/60">Delivery</p>
+                    <p class="mt-1 text-sm font-bold text-white">Operational Rigor</p>
                   </div>
                 </div>
               </div>
 
-              <div class="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+              <div class="rounded-3xl bg-white/5 p-5 ring-1 ring-white/10">
                 <div class="flex items-center gap-3">
-                  <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                    <i class="fa-solid fa-handshake"></i>
+                  <div
+                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                    <i class="fa-solid fa-handshake text-teal-200"></i>
                   </div>
                   <div>
-                    <p class="text-xs font-semibold text-slate-500">Focus</p>
-                    <p class="mt-1 text-sm font-bold text-slate-900">Long-Term Trust</p>
+                    <p class="text-xs font-semibold text-white/60">Focus</p>
+                    <p class="mt-1 text-sm font-bold text-white">Integrity</p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div data-aos="zoom-out-up" class="relative lg:col-span-5">
-
-            <div class="mx-auto mt-8 max-w-md rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="mt-6 rounded-[40px] bg-gradient-to-r from-slate-900 to-slate-700 p-6 ring-1 ring-white/10">
               <div class="flex items-center justify-between gap-4">
-                <p class="text-sm font-bold text-slate-900">What We Do</p>
-                <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">4 Domains</span>
+                <p class="text-sm font-bold text-white">What We Do</p>
+                <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/80">4 Domains</span>
               </div>
 
               <div class="mt-5 grid gap-3 sm:grid-cols-2">
-                <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
-                  <p class="text-xs font-semibold text-slate-500">Technology</p>
-                  <p class="mt-1 text-sm font-bold text-slate-900">Cloud • Security • AI</p>
+                <div class="rounded-2xl bg-white/10 p-4 ring-1 ring-white/15">
+                  <p class="text-xs font-semibold text-white/60">Technology</p>
+                  <p class="mt-1 text-sm font-bold text-white">Cloud • Security • AI</p>
                 </div>
 
-                <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
-                  <p class="text-xs font-semibold text-slate-500">Healthcare</p>
-                  <p class="mt-1 text-sm font-bold text-slate-900">Staffing • Care</p>
+                <div class="rounded-2xl bg-white/10 p-4 ring-1 ring-white/15">
+                  <p class="text-xs font-semibold text-white/60">Healthcare</p>
+                  <p class="mt-1 text-sm font-bold text-white">Staffing • Care</p>
                 </div>
 
-                <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
-                  <p class="text-xs font-semibold text-slate-500">Logistics</p>
-                  <p class="mt-1 text-sm font-bold text-slate-900">Supply • Delivery</p>
+                <div class="rounded-2xl bg-white/10 p-4 ring-1 ring-white/15">
+                  <p class="text-xs font-semibold text-white/60">Logistics</p>
+                  <p class="mt-1 text-sm font-bold text-white">Supply • Delivery</p>
                 </div>
 
-                <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
-                  <p class="text-xs font-semibold text-slate-500">Consulting</p>
-                  <p class="mt-1 text-sm font-bold text-slate-900">Strategy • Ops</p>
+                <div class="rounded-2xl bg-white/10 p-4 ring-1 ring-white/15">
+                  <p class="text-xs font-semibold text-white/60">Construction</p>
+                  <p class="mt-1 text-sm font-bold text-white">Field • Safety</p>
                 </div>
               </div>
 
               <a href="services.html"
-                class="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
+                class="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-100">
                 Explore services
                 <i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="our-story" class="bg-slate-50 py-16 md:py-24">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="grid gap-12 lg:grid-cols-12 lg:items-center">
-          <div data-aos="fade-up" class="lg:col-span-6">
-            <p
-              class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-800 shadow-sm ring-1 ring-slate-200">
-              <i class="fa-solid fa-book-open"></i>
-              Our Story
-            </p>
-
-            <h2 class="mt-6 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Built for Delivery, Designed for Trust
-            </h2>
-
-            <p class="mt-4 text-lg text-slate-600">
-              Northmarke Group was created to bring clarity and execution to complex environments.
-              Our team supports organizations that need reliable delivery, responsible operations, and
-              real outcomes—without unnecessary friction.
-            </p>
-
-            <div class="mt-8 space-y-4">
-              <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-                <div class="flex items-start gap-4">
-                  <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                    <i class="fa-solid fa-bullseye"></i>
-                  </div>
-                  <div>
-                    <p class="text-lg font-bold text-slate-900">Mission</p>
-                    <p class="mt-2 text-sm text-slate-600">
-                      Deliver secure and reliable services that help organizations and communities grow with confidence.
-                    </p>
-                  </div>
+          <!-- PHOTO GRID (3 images placeholders) -->
+          <div data-aos="zoom-out-up" class="relative lg:col-span-5">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div class="overflow-hidden rounded-[36px] bg-white/5 ring-1 ring-white/10">
+                <div class="aspect-[3/5] w-full">
+                  <img src="/docs/assets/img.jpg" alt="Northmarke team in action" class="h-full w-full object-cover"
+                    loading="lazy" />
                 </div>
               </div>
 
-              <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-                <div class="flex items-start gap-4">
-                  <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                    <i class="fa-solid fa-eye"></i>
-                  </div>
-                  <div>
-                    <p class="text-lg font-bold text-slate-900">Vision</p>
-                    <p class="mt-2 text-sm text-slate-600">
-                      Be a trusted partner known for practical execution, measurable outcomes, and community impact.
-                    </p>
-                  </div>
+              <div class="overflow-hidden rounded-[36px] bg-white/5 ring-1 ring-white/10">
+                <div class="aspect-[3/5] w-full">
+                  <img src="/docs/assets/img (3).jpg" alt="Secure technology delivery"
+                    class="h-full w-full object-cover" loading="lazy" />
                 </div>
               </div>
 
-              <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-                <div class="flex items-start gap-4">
-                  <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                    <i class="fa-solid fa-gem"></i>
-                  </div>
-                  <div>
-                    <p class="text-lg font-bold text-slate-900">Values</p>
-                    <p class="mt-2 text-sm text-slate-600">
-                      Integrity, accountability, service, and excellence—paired with strong communication and
-                      follow-through.
-                    </p>
-                  </div>
+              <div class="overflow-hidden rounded-[36px] bg-white/5 ring-1 ring-white/10 sm:col-span-2">
+                <div class="aspect-[10/9] w-full">
+                  <img src="/docs/assets/hero.jpg" alt="Community-focused work" class="h-full w-full object-cover"
+                    loading="lazy" />
                 </div>
               </div>
             </div>
-          </div>
 
-          <div data-aos="fade-up" data-aos-delay="200" class="lg:col-span-6">
-            <div class="rounded-[44px] border border-slate-200 bg-white p-8 shadow-sm">
-              <div class="flex items-center justify-between gap-4">
-                <p class="text-sm font-bold text-slate-900">What You Can Expect</p>
-                <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">Working
-                  Style</span>
-              </div>
 
-              <div class="mt-8 grid gap-4">
-                <div class="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200">
-                  <div class="flex items-start gap-3">
-                    <div
-                      class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                      <i class="fa-solid fa-list-check"></i>
-                    </div>
-                    <div>
-                      <p class="text-base font-bold text-slate-900">Clear deliverables</p>
-                      <p class="mt-2 text-sm text-slate-600">
-                        We define what “done” means upfront—so expectations stay aligned and progress is visible.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200">
-                  <div class="flex items-start gap-3">
-                    <div
-                      class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                      <i class="fa-solid fa-people-group"></i>
-                    </div>
-                    <div>
-                      <p class="text-base font-bold text-slate-900">Responsive support</p>
-                      <p class="mt-2 text-sm text-slate-600">
-                        You get consistent communication and quick answers, even when priorities shift.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200">
-                  <div class="flex items-start gap-3">
-                    <div
-                      class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                      <i class="fa-solid fa-shield-halved"></i>
-                    </div>
-                    <div>
-                      <p class="text-base font-bold text-slate-900">Security-first mindset</p>
-                      <p class="mt-2 text-sm text-slate-600">
-                        We approach delivery with governance and compliance in mind, especially in regulated spaces.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200">
-                  <div class="flex items-start gap-3">
-                    <div
-                      class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                      <i class="fa-solid fa-arrow-trend-up"></i>
-                    </div>
-                    <div>
-                      <p class="text-base font-bold text-slate-900">Outcome-focused execution</p>
-                      <p class="mt-2 text-sm text-slate-600">
-                        We prioritize practical results—helping teams move faster with confidence and clarity.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <a href="contact.html"
-                class="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-full bg-slate-900 px-7 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
-                Contact Us
-                <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="bg-slate-50 py-16 md:py-24 md:pt-10">
+    <!-- WELCOME FROM CEO (must come BEFORE team and principles) -->
+    <section id="welcome-ceo" class="bg-slate-950 py-16 md:py-24">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
-        <!-- Header -->
         <div data-aos="fade-up" class="mx-auto max-w-3xl text-center">
           <p
-            class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-800 shadow-sm ring-1 ring-slate-200">
-            <i class="fa-solid fa-users"></i>
-            Leadership
-          </p>
-
-          <h2 class="mt-6 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-            Meet Our Team
-          </h2>
-
-          <p class="mt-4 text-lg text-slate-600">
-            Mission-driven leadership across healthcare services, program execution, and community-focused delivery.
-          </p>
-        </div>
-
-        <!-- Cards -->
-        <div class="mt-12 grid gap-6 lg:grid-cols-2">
-
-          <!-- Esther -->
-          <div data-aos="fade-up" class="rounded-[44px] border border-slate-200 bg-white p-8 shadow-sm">
-            <div class="flex items-start gap-5">
-              <!-- Photo -->
-              <div class="shrink-0">
-                <img src="docs/assets/EstherChinedu-2.jpeg" alt="Esther Chinedu"
-                  class="h-20 w-20 rounded-3xl object-cover ring-1 ring-slate-200" loading="lazy" />
-              </div>
-
-              <div class="flex-1">
-                <div class="flex items-start justify-between gap-4">
-                  <div>
-                    <p class="text-xl font-bold text-slate-900">Esther Chinedu</p>
-                    <p class="mt-1 text-sm font-semibold text-slate-700">Healthcare Specialist</p>
-
-                    <a href="mailto:esther.obinna@northmarke.com"
-                      class="mt-2 inline-block text-sm font-semibold text-slate-900 hover:text-slate-700">
-                      esther.obinna@northmarke.com
-                    </a>
-                  </div>
-
-                  <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                    <i class="fa-solid fa-user-nurse"></i>
-                  </div>
-                </div>
-
-                <p class="mt-5 text-sm text-slate-600 leading-relaxed">
-                  Esther Chinedu is a dedicated Registered Nurse with a strong clinical foundation built on her
-                  Bachelor’s
-                  degree in Nursing. She has delivered high-quality care across leading healthcare systems including
-                  LifeBridge Health and Sinai Hospital.
-                </p>
-
-                <p class="mt-4 text-sm text-slate-600 leading-relaxed">
-                  She specializes in psychiatric and behavioral health nursing—supporting mental health assessment,
-                  crisis
-                  stabilization, therapeutic intervention, and patient-centered care across diverse populations.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Stella -->
-          <div data-aos="fade-up" data-aos-delay="200" class="rounded-[44px] border border-slate-200 bg-white p-8 shadow-sm">
-            <div class="flex items-start gap-5">
-              <!-- Photo -->
-              <div class="shrink-0">
-                <img src="/docs/assets/StellaEshett.jpeg" alt="Stella Eshett"
-                  class="h-20 w-20 rounded-3xl object-cover ring-1 ring-slate-200" loading="lazy" />
-              </div>
-
-              <div class="flex-1">
-                <div class="flex items-start justify-between gap-4">
-                  <div>
-                    <p class="text-xl font-bold text-slate-900">Stella Eshett</p>
-                    <p class="mt-1 text-sm font-semibold text-slate-700">
-                      Project Management & Healthcare Specialist, North America and Africa
-                    </p>
-
-                    <a href="mailto:stella.eshett@northmarke.com"
-                      class="mt-2 inline-block text-sm font-semibold text-slate-900 hover:text-slate-700">
-                      stella.eshett@northmarke.com
-                    </a>
-                  </div>
-
-                  <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                    <i class="fa-solid fa-diagram-project"></i>
-                  </div>
-                </div>
-
-                <p class="mt-5 text-sm text-slate-600 leading-relaxed">
-                  Stella Eshett is a seasoned project management professional with a strong background in public health,
-                  data analytics, and program evaluation. She holds a Master’s degree in Public Health and is currently
-                  pursuing a Master of Science in Data Analytics.
-                </p>
-
-                <p class="mt-4 text-sm text-slate-600 leading-relaxed">
-                  Her expertise spans monitoring and evaluation, project coordination, and data-driven decision support—
-                  helping guide planning, optimize implementation, and measure impact across health, technology, and
-                  operational environments.
-                </p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-
-    <section class="bg-slate-50 py-16 md:py-24 md:pt-10">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
-        <!-- HEADER -->
-        <div data-aos="fade-up" class="mx-auto max-w-3xl text-center">
-          <p
-            class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-800 shadow-sm ring-1 ring-slate-200">
-            <i class="fa-solid fa-user-tie"></i>
+            class="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/15">
+            <i class="fa-solid fa-user-tie text-sky-200"></i>
             About Northmarke Group
           </p>
 
-          <h2 class="mt-6 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+          <h2 class="mt-6 text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Welcome from our CEO
           </h2>
 
-          <p class="mt-4 text-lg text-slate-600">
+          <p class="mt-4 text-lg text-white/70">
             A mission-ready team delivering secure solutions and human impact across critical domains.
           </p>
         </div>
 
-        <!-- CEO MESSAGE -->
         <div class="mt-12 grid gap-8 lg:grid-cols-12 lg:items-start">
-          <div data-aos="fade-up" class="lg:col-span-5">
-            <div class="rounded-[44px] border border-slate-200 bg-white p-8 shadow-sm">
+          <div data-aos="fade-up" class="lg:col-span-7">
+            <div class="rounded-[44px] bg-gradient-to-r from-slate-900 to-slate-700 p-8 ring-1 ring-white/10">
               <div class="flex items-start gap-4">
-                <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                  <i class="fa-solid fa-quote-left"></i>
+                <div
+                  class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                  <i class="fa-solid fa-quote-left text-orange-200"></i>
                 </div>
 
                 <div>
-                  <p class="text-sm font-bold text-slate-900">Message</p>
-                  <p class="mt-3 text-slate-700 leading-relaxed">
+                  <p class="text-sm font-bold text-white">Message</p>
+                  <p class="mt-3 text-white/80 leading-relaxed">
                     “Northmarke Group delivers mission-ready solutions in Technology, Healthcare, Logistics, and
                     Construction.
                     We provide trusted, objective, and purpose-driven support tailored to each client’s operational
-                    needs and
-                    long-term goals.”
+                    needs and long-term goals.”
                   </p>
 
-                  <p class="mt-4 text-slate-700 leading-relaxed">
+                  <p class="mt-4 text-white/80 leading-relaxed">
                     “We combine certified technical expertise, compassionate care, and reliable operations to support
                     organizations across the public and private sectors.”
                   </p>
+
+                  <div class="mt-6 flex flex-col gap-1 text-sm">
+                    <p class="font-semibold text-white">Sandra Osondu</p>
+                    <p class="text-white/70">Founder &amp; CEO</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- LEADERSHIP INTRO -->
-          <div data-aos="fade-up" class="lg:col-span-7">
-            <div class="rounded-[44px] border border-slate-200 bg-white p-8 shadow-sm">
+          <div data-aos="fade-up" data-aos-delay="150" class="lg:col-span-5">
+            <div class="rounded-[44px] bg-white/5 p-8 ring-1 ring-white/10">
               <div class="flex items-center justify-between gap-4">
-                <p class="text-sm font-bold text-slate-900">Leadership</p>
-                <span class="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">Team</span>
+                <p class="text-sm font-bold text-white">At a Glance</p>
+                <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/80">Northmarke</span>
               </div>
 
-              <p class="mt-4 text-slate-600">
-                Northmarke Group is built on integrity, reliability, and a commitment to improving lives and operations.
-              </p>
-
-              <div class="mt-6 grid gap-4 sm:grid-cols-2">
-                <div class="rounded-3xl bg-slate-50 p-5 ring-1 ring-slate-200">
-                  <p class="text-xs font-semibold text-slate-500">Primary Domains</p>
-                  <p class="mt-2 text-sm font-bold text-slate-900">Technology • Healthcare • Logistics • Construction
+              <div class="mt-6 grid gap-4">
+                <div class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+                  <p class="text-xs font-semibold text-white/60">Primary Domains</p>
+                  <p class="mt-2 text-sm font-semibold text-white">
+                    Technology • Healthcare • Logistics • Construction
                   </p>
                 </div>
 
-                <div class="rounded-3xl bg-slate-50 p-5 ring-1 ring-slate-200">
-                  <p class="text-xs font-semibold text-slate-500">Operating Style</p>
-                  <p class="mt-2 text-sm font-bold text-slate-900">Mission-Ready • Compliance-Aware • People-Centered
+                <div class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+                  <p class="text-xs font-semibold text-white/60">Operating Style</p>
+                  <p class="mt-2 text-sm font-semibold text-white">
+                    Mission-Ready • Compliance-Aware • People-Centered
+                  </p>
+                </div>
+
+                <div class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+                  <p class="text-xs font-semibold text-white/60">Commitment</p>
+                  <p class="mt-2 text-sm text-white/75">
+                    Northmarke Group is built on integrity, reliability, and a commitment to improving lives and
+                    operations.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <!-- LEADERSHIP CARDS -->
-        <div class="mt-12 grid gap-6 lg:grid-cols-2">
-
-          <!-- Sandra -->
-          <div data-aos="fade-up" class="rounded-[44px] border border-slate-200 bg-white p-8 shadow-sm">
-            <div class="flex items-start justify-between gap-6">
-              <div>
-                <p class="text-xl font-bold text-slate-900">Sandra Osondu</p>
-                <p class="mt-1 text-sm font-semibold text-slate-700">
-                  Co-Founder, Principal & Director of Healthcare Services
-                </p>
-                <a href="mailto:sandra.osondu@northmarke.com"
-                  class="mt-2 inline-block text-sm font-semibold text-slate-900 hover:text-slate-700">
-                  sandra.osondu@northmarke.com
-                </a>
-              </div>
-              <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                <i class="fa-solid fa-heart-pulse"></i>
-              </div>
-            </div>
-
-            <p class="mt-5 text-sm text-slate-600 leading-relaxed">
-              Sandra brings <span class="font-semibold text-slate-900">10+ years</span> of experience in patient care,
-              community health, and long-term care support. As a licensed GNA, she has worked across senior care
-              facilities,
-              rehabilitation centers, and home-based care programs.
-            </p>
-
-            <p class="mt-4 text-sm text-slate-600 leading-relaxed">
-              She leads Northmarke Group’s healthcare and care companion services with a blend of empathy,
-              professionalism,
-              and operational excellence—ensuring every client receives compassionate, reliable, and high-quality
-              support.
-            </p>
-          </div>
-
-          <!-- Stella -->
-          <div data-aos="fade-up" class="rounded-[44px] border border-slate-200 bg-white p-8 shadow-sm">
-            <div class="flex items-start justify-between gap-6">
-              <div>
-                <p class="text-xl font-bold text-slate-900">Stella Eshett</p>
-                <p class="mt-1 text-sm font-semibold text-slate-700">
-                  Project Management & Healthcare Specialist, North America and Africa
-                </p>
-                <a href="mailto:stella.eshett@northmarke.com"
-                  class="mt-2 inline-block text-sm font-semibold text-slate-900 hover:text-slate-700">
-                  stella.eshett@northmarke.com
-                </a>
-              </div>
-              <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                <i class="fa-solid fa-diagram-project"></i>
-              </div>
-            </div>
-
-            <p class="mt-5 text-sm text-slate-600 leading-relaxed">
-              Stella is a seasoned project management professional with a strong background in public health, data
-              analytics,
-              and program evaluation. She holds a Master’s degree in Public Health and is currently pursuing a Master of
-              Science in Data Analytics.
-            </p>
-
-            <p class="mt-4 text-sm text-slate-600 leading-relaxed">
-              She specializes in data-driven decision support—using analytical insights to guide planning, optimize
-              implementation, and measure program impact across health, technology, and operational environments.
-            </p>
-          </div>
-
-          <!-- Elijah -->
-          <div data-aos="fade-up" class="rounded-[44px] border border-slate-200 bg-white p-8 shadow-sm">
-            <div class="flex items-start justify-between gap-6">
-              <div>
-                <p class="text-xl font-bold text-slate-900">Elijah Ukot</p>
-                <p class="mt-1 text-sm font-semibold text-slate-700">Business System/Data Analyst</p>
-                <a href="mailto:elijah.ukot@northmarke.com"
-                  class="mt-2 inline-block text-sm font-semibold text-slate-900 hover:text-slate-700">
-                  elijah.ukot@northmarke.com
-                </a>
-              </div>
-              <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                <i class="fa-solid fa-chart-line"></i>
-              </div>
-            </div>
-
-            <p class="mt-5 text-sm text-slate-600 leading-relaxed">
-              Elijah is a seasoned Cloud Business Data Manager and Senior Business Systems Analyst with deep expertise
-              in
-              cloud computing, data analytics, and enterprise-scale digital transformation.
-            </p>
-
-            <p class="mt-4 text-sm text-slate-600 leading-relaxed">
-              With experience across Marriott, UnitedHealth, M&T Bank, and Freddie Mac, he specializes in secure data
-              management frameworks, cloud migrations, and BI/reporting solutions using AWS, Azure, SQL, Power BI,
-              Tableau,
-              and modern data architectures.
-            </p>
-          </div>
-
-          <!-- Esther -->
-          <div data-aos="fade-up" class="rounded-[44px] border border-slate-200 bg-white p-8 shadow-sm">
-            <div class="flex items-start justify-between gap-6">
-              <div>
-                <p class="text-xl font-bold text-slate-900">Esther Chinedu</p>
-                <p class="mt-1 text-sm font-semibold text-slate-700">Healthcare Specialist</p>
-                <a href="mailto:esther.obinna@northmarke.com"
-                  class="mt-2 inline-block text-sm font-semibold text-slate-900 hover:text-slate-700">
-                  esther.obinna@northmarke.com
-                </a>
-              </div>
-              <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                <i class="fa-solid fa-user-nurse"></i>
-              </div>
-            </div>
-
-            <p class="mt-5 text-sm text-slate-600 leading-relaxed">
-              Esther is a dedicated Registered Nurse with a strong clinical foundation built on her Bachelor’s degree in
-              Nursing and experience across LifeBridge Health and Sinai Hospital.
-            </p>
-
-            <p class="mt-4 text-sm text-slate-600 leading-relaxed">
-              She specializes in psychiatric and behavioral health nursing, including mental health assessment, crisis
-              stabilization, therapeutic intervention, and patient-centered support across diverse populations.
-            </p>
-          </div>
-
-          <!-- Alexander -->
-          <div data-aos="fade-up" class="rounded-[44px] border border-slate-200 bg-white p-8 shadow-sm lg:col-span-2">
-            <div class="flex items-start justify-between gap-6">
-              <div>
-                <p class="text-xl font-bold text-slate-900">Alexander Osondu</p>
-                <p class="mt-1 text-sm font-semibold text-slate-700">Co-Founder & Principal</p>
-                <a href="mailto:alexander.osondu@northmarke.com"
-                  class="mt-2 inline-block text-sm font-semibold text-slate-900 hover:text-slate-700">
-                  alexander.osondu@northmarke.com
-                </a>
-              </div>
-              <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                <i class="fa-solid fa-shield"></i>
-              </div>
-            </div>
-
-            <p class="mt-5 text-sm text-slate-600 leading-relaxed">
-              Alexander brings extensive expertise in Governance, Risk, and Compliance (GRC), cloud security, and secure
-              architecture across enterprise and GovCloud environments. He specializes in cybersecurity engineering,
-              secure
-              cloud architecture, and AWS/Azure GovCloud operations supporting mission-critical systems.
-            </p>
-
-            <p class="mt-4 text-sm text-slate-600 leading-relaxed">
-              His experience spans Zero-Trust implementation, secure DevOps automation, and full lifecycle RMF
-              compliance.
-              He currently supports Department of Veterans Affairs applications and infrastructure across AWS and Azure
-              GovCloud.
-            </p>
-
-            <div class="mt-6 rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200">
-              <p class="text-xs font-semibold text-slate-500">Credentials</p>
-              <p class="mt-2 text-sm font-semibold text-slate-900">
-                CompTIA Security+ • AWS Security Specialty • AWS Solutions Architect – Professional • Azure Solutions
-                Architect – Professional
-              </p>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
 
-
-    <section class="bg-white py-16 md:py-24">
+    <!-- MEET OUR TEAM -->
+    <section id="meet-our-team" class="bg-slate-950 py-16 md:py-24">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div data-aos="fade-up" class="mx-auto max-w-3xl text-center">
           <p
-            class="inline-flex items-center gap-2 rounded-full bg-slate-100 px-4 py-2 text-sm font-semibold text-slate-800">
-            <i class="fa-solid fa-users"></i>
+            class="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/15">
+            <i class="fa-solid fa-users text-teal-200"></i>
+            Leadership
+          </p>
+
+          <h2 class="mt-6 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            Meet Our Team
+          </h2>
+
+          <p class="mt-4 text-lg text-white/70">
+            Mission-driven leadership across healthcare services, program execution, and community-focused delivery.
+          </p>
+        </div>
+
+        <div class="mt-12 grid-cols-1 grid gap-6 lg:grid-cols-2">
+          <div data-aos="fade-up" class="rounded-[44px] bg-white/5 p-8 ring-1 ring-white/10">
+            <div class="flex items-start gap-5 md:flex-row flex-col">
+              <div class="shrink-0">
+                <img src="/docs/assets/sandra-osondu.jpeg" alt="Sandra Osondu"
+                  class="h-20 w-20 rounded-3xl object-cover ring-1 ring-white/10" loading="lazy" />
+              </div>
+
+              <div class="flex-1">
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <p class="text-xl font-bold text-white">Sandra Osondu</p>
+                    <p class="mt-1 text-sm font-semibold text-white/75">
+                      Co-Founder, Principal &amp; Director of Healthcare Services
+                    </p>
+
+                    <a href="mailto:sandra.osondu@northmarke.com"
+                      class="mt-2 inline-block text-sm font-semibold text-white hover:text-white/80">
+                      sandra.osondu@northmarke.com
+                    </a>
+                  </div>
+
+                  <div
+                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                    <i class="fa-solid fa-heart-pulse text-teal-200"></i>
+                  </div>
+                </div>
+
+                <p class="mt-5 text-sm text-white/75 leading-relaxed">
+                  Sandra brings 10+ years of experience in patient care, community health, and long-term care support.
+                  As a
+                  licensed GNA, she has worked across senior care facilities, rehabilitation centers, and home-based
+                  care programs.
+                </p>
+
+                <p class="mt-4 text-sm text-white/75 leading-relaxed">
+                  She leads Northmarke Group’s healthcare and care companion services with empathy, professionalism, and
+                  operational excellence.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="fade-up" data-aos-delay="100" class="rounded-[44px] bg-white/5 p-8 ring-1 ring-white/10">
+            <div class="flex items-start gap-5 md:flex-row flex-col">
+              <div class="shrink-0">
+                <img src="/docs/assets/StellaEshett.jpeg" alt="Stella Eshett"
+                  class="h-20 w-20 rounded-3xl object-cover ring-1 ring-white/10" loading="lazy" />
+              </div>
+
+              <div class="flex-1">
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <p class="text-xl font-bold text-white">Stella Eshett</p>
+                    <p class="mt-1 text-sm font-semibold text-white/75">
+                      Project Management &amp; Healthcare Specialist, North America and Africa
+                    </p>
+
+                    <a href="mailto:stella.eshett@northmarke.com"
+                      class="mt-2 inline-block text-sm font-semibold text-white hover:text-white/80">
+                      stella.eshett@northmarke.com
+                    </a>
+                  </div>
+
+                  <div
+                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                    <i class="fa-solid fa-diagram-project text-sky-200"></i>
+                  </div>
+                </div>
+
+                <p class="mt-5 text-sm text-white/75 leading-relaxed">
+                  Stella is a seasoned project management professional with a strong background in public health, data
+                  analytics,
+                  and program evaluation. She holds a Master’s degree in Public Health and is currently pursuing a
+                  Master of Science in Data Analytics.
+                </p>
+
+                <p class="mt-4 text-sm text-white/75 leading-relaxed">
+                  She specializes in data-driven decision support—using analytical insights to guide planning, optimize
+                  implementation,
+                  and measure impact across health, technology, and operational environments.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="fade-up" class="rounded-[44px] bg-white/5 p-8 ring-1 ring-white/10">
+            <div class="flex items-start gap-5 md:flex-row flex-col">
+              <div class="shrink-0">
+                <img src="https://img.freepik.com/premium-vector/businesswoman-icon-vector-image-can-be-used-recruitment-agency_120816-274956.jpg?semt=ais_user_personalization&w=740&q=80" alt="Elijah Ukot"
+                  class="h-20 w-20 rounded-3xl object-cover ring-1 ring-white/10" loading="lazy" />
+              </div>
+
+              <div class="flex-1">
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <p class="text-xl font-bold text-white">Elijah Ukot</p>
+                    <p class="mt-1 text-sm font-semibold text-white/75">Business System/Data Analyst</p>
+
+                    <a href="mailto:elijah.ukot@northmarke.com"
+                      class="mt-2 inline-block text-sm font-semibold text-white hover:text-white/80">
+                      elijah.ukot@northmarke.com
+                    </a>
+                  </div>
+
+                  <div
+                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                    <i class="fa-solid fa-chart-line text-sky-200"></i>
+                  </div>
+                </div>
+
+                <p class="mt-5 text-sm text-white/75 leading-relaxed">
+                  Elijah is a Cloud Business Data Manager and Senior Business Systems Analyst with deep expertise in
+                  cloud computing,
+                  data analytics, and enterprise-scale digital transformation.
+                </p>
+
+                <p class="mt-4 text-sm text-white/75 leading-relaxed">
+                  He specializes in secure data management frameworks, cloud migration initiatives, and BI/reporting
+                  solutions across modern data architectures.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="fade-up" data-aos-delay="100" class="rounded-[44px] bg-white/5 p-8 ring-1 ring-white/10">
+            <div class="flex items-start gap-5 md:flex-row flex-col">
+              <div class="shrink-0">
+                <img src="/docs/assets/EstherChinedu-2.jpeg" alt="Esther Obinna"
+                  class="h-20 w-20 rounded-3xl object-cover ring-1 ring-white/10" loading="lazy" />
+              </div>
+
+              <div class="flex-1">
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <p class="text-xl font-bold text-white">Esther Obinna</p>
+                    <p class="mt-1 text-sm font-semibold text-white/75">Healthcare Specialist</p>
+
+                    <a href="mailto:esther.obinna@northmarke.com"
+                      class="mt-2 inline-block text-sm font-semibold text-white hover:text-white/80">
+                      esther.obinna@northmarke.com
+                    </a>
+                  </div>
+
+                  <div
+                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                    <i class="fa-solid fa-user-nurse text-teal-200"></i>
+                  </div>
+                </div>
+
+                <p class="mt-5 text-sm text-white/75 leading-relaxed">
+                  Esther is a dedicated Registered Nurse with a strong clinical foundation and a proven track record
+                  across leading healthcare systems.
+                </p>
+
+                <p class="mt-4 text-sm text-white/75 leading-relaxed">
+                  She specializes in psychiatric and behavioral health nursing—supporting assessment, crisis
+                  stabilization, and therapeutic intervention across diverse populations.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="fade-up" class="rounded-[44px] bg-white/5 p-8 ring-1 ring-white/10 lg:col-span-2">
+            <div class="flex items-start gap-6 md:flex-row flex-col">
+              <div class="shrink-0">
+                <img src="https://img.freepik.com/premium-vector/businesswoman-icon-vector-image-can-be-used-recruitment-agency_120816-274956.jpg?semt=ais_user_personalization&w=740&q=80" alt="Alexander Osondu"
+                  class="h-20 w-20 rounded-3xl object-cover ring-1 ring-white/10" loading="lazy" />
+              </div>
+
+              <div class="flex-1">
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <p class="text-xl font-bold text-white">Alexander Osondu</p>
+                    <p class="mt-1 text-sm font-semibold text-white/75">Co-Founder &amp; Principal</p>
+
+                    <a href="mailto:alexander.osondu@northmarke.com"
+                      class="mt-2 inline-block text-sm font-semibold text-white hover:text-white/80">
+                      alexander.osondu@northmarke.com
+                    </a>
+                  </div>
+
+                  <div
+                    class="md:flex hidden h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                    <i class="fa-solid fa-shield text-sky-200"></i>
+                  </div>
+                </div>
+
+                <p class="mt-5 text-sm text-white/75 leading-relaxed">
+                  Alexander brings extensive expertise in Governance, Risk, and Compliance (GRC), cloud security, and
+                  secure architecture across enterprise and GovCloud environments.
+                  He specializes in cybersecurity engineering, secure cloud architecture, and AWS/Azure GovCloud
+                  operations supporting mission-critical systems.
+                </p>
+
+                <p class="mt-4 text-sm text-white/75 leading-relaxed">
+                  His work spans Zero-Trust implementation, secure DevOps automation, and full lifecycle RMF
+                  compliance—ensuring solutions are secure, compliant, and mission-ready.
+                </p>
+
+                <div class="mt-6 rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+                  <p class="text-xs font-semibold text-white/60">Credentials</p>
+                  <p class="mt-2 text-sm font-semibold text-white">
+                    CompTIA Security+ • AWS Security Specialty • AWS Solutions Architect – Professional • Azure
+                    Solutions Architect – Professional
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE WAY WE WORK (Mission/Vision/Values updated per requirements) -->
+    <section id="the-way-we-work" class="bg-slate-950 py-16 md:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div data-aos="fade-up" class="mx-auto max-w-3xl text-center">
+          <p
+            class="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/15">
+            <i class="fa-solid fa-users text-orange-200"></i>
             Our Principles
           </p>
 
-          <h2 class="mt-6 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+          <h2 class="mt-6 text-3xl font-bold tracking-tight text-white sm:text-4xl">
             The Way We Work
           </h2>
 
-          <p class="mt-4 text-lg text-slate-600">
+          <p class="mt-4 text-lg text-white/70">
             We work with clarity, accountability, and a commitment to long-term outcomes.
           </p>
         </div>
 
-        <div class="mt-14 grid gap-6 lg:grid-cols-3">
-          <div data-aos="fade-up" class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
-            <div class="flex items-start gap-4">
-              <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                <i class="fa-solid fa-compass"></i>
+        <div class="mt-14 grid gap-6 lg:grid-cols-2 grid-cols-1">
+          <div data-aos="fade-up" class="rounded-3xl bg-white/5 p-7 ring-1 ring-white/10">
+            <div class="flex items-start gap-4 flex-col">
+              <div
+                class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                <i class="fa-solid fa-bullseye text-sky-200"></i>
               </div>
               <div>
-                <p class="text-lg font-bold text-slate-900">Clarity</p>
-                <p class="mt-2 text-sm text-slate-600">
-                  We simplify complexity and align around clear priorities, roles, and deliverables.
+                <p class="text-lg font-bold text-white">Mission</p>
+                <p class="mt-2 text-white/75">
+                  To deliver secure, innovative, and people-centered solutions across technology, healthcare, and
+                  professional services—empowering organizations and individuals with trusted expertise, operational
+                  excellence, and unwavering integrity. Northmarke is committed to advancing communities, protecting
+                  critical systems, and elevating the quality of life through reliable, ethical, and future-ready
+                  services.
                 </p>
               </div>
             </div>
           </div>
 
-          <div data-aos="fade-up" data-aos-delay="200" class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
-            <div class="flex items-start gap-4">
-              <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                <i class="fa-solid fa-scale-balanced"></i>
+          <div data-aos="fade-up" data-aos-delay="100" class="rounded-3xl bg-white/5 p-7 ring-1 ring-white/10">
+            <div class="flex items-start gap-4 flex-col">
+              <div
+                class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                <i class="fa-solid fa-eye text-teal-200"></i>
               </div>
               <div>
-                <p class="text-lg font-bold text-slate-900">Integrity</p>
-                <p class="mt-2 text-sm text-slate-600">
-                  We do what we say we’ll do—protecting trust and delivering work responsibly.
+                <p class="text-lg font-bold text-white">Vision</p>
+                <p class="mt-2 text-white/75">
+                  To become a leading global provider of integrated technology and human-care solutions—recognized for
+                  excellence in cybersecurity, cloud innovation, compassionate care services, and transformative
+                  business support. Northmarke aims to set the standard for trust, innovation, and impact across
+                  industries and continents.
                 </p>
               </div>
             </div>
           </div>
 
-          <div data-aos="fade-up" data-aos-delay="400" class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
-            <div class="flex items-start gap-4">
-              <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white">
-                <i class="fa-solid fa-rocket"></i>
+          <div data-aos="fade-up" data-aos-delay="200" class="rounded-3xl md:col-span-2 bg-white/5 p-7 ring-1 ring-white/10">
+            <div class="flex items-start gap-4 flex-col">
+              <div
+                class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
+                <i class="fa-solid fa-gem text-orange-200"></i>
               </div>
               <div>
-                <p class="text-lg font-bold text-slate-900">Excellence</p>
-                <p class="mt-2 text-sm text-slate-600">
-                  We bring high standards, strong craftsmanship, and disciplined execution to every engagement.
-                </p>
+                <p class="text-lg font-bold text-white">Core Values</p>
+                <ul class="mt-3 space-y-2 text-white/75 list-disc list-inside">
+                  <li><span class="font-semibold text-white">Integrity &amp; Accountability:</span> We honor every
+                    commitment with transparency, ethical conduct, and responsibility.</li>
+                  <li><span class="font-semibold text-white">Security &amp; Trust:</span> We safeguard people, data, and
+                    systems while delivering uncompromising reliability.</li>
+                  <li><span class="font-semibold text-white">Innovation &amp; Excellence:</span> We design modern,
+                    scalable, and future-focused solutions that exceed industry standards.</li>
+                  <li><span class="font-semibold text-white">Empathy, Compassion &amp; Service:</span> We treat every
+                    client, partner, and individual with dignity, empathy, and respect.</li>
+                  <li><span class="font-semibold text-white">Operational Rigor:</span> We follow structured, compliant,
+                    and results-driven processes in every engagement.</li>
+                  <li><span class="font-semibold text-white">Global Mindset:</span> We bring multicultural experience
+                    and a worldwide perspective to every solution.</li>
+                  <li><span class="font-semibold text-white">Continuous Improvement:</span> We learn, adapt, and evolve
+                    to meet the needs of a rapidly changing world.</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -765,13 +636,14 @@
       </div>
     </section>
 
+    <!-- CTA -->
     <section class="bg-slate-900 py-16 md:py-20">
-      <div data-aos="zoom-out-up" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div data-aos="fade-up" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="grid gap-10 lg:grid-cols-12 lg:items-center">
           <div class="lg:col-span-7">
             <p
-              class="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-white">
-              <i class="fa-solid fa-sparkles"></i>
+              class="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/15">
+              <i class="fa-solid fa-sparkles text-orange-200"></i>
               Ready to connect?
             </p>
             <h2 class="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -787,15 +659,16 @@
               <div class="flex items-start gap-4">
                 <div
                   class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white ring-1 ring-white/15">
-                  <i class="fa-solid fa-phone"></i>
+                  <i class="fa-solid fa-phone text-sky-200"></i>
                 </div>
                 <div>
                   <p class="text-sm font-semibold text-white">(410) 907-5496</p>
                   <p class="text-sm text-white/70">Mon–Fri • 9AM–5PM EST</p>
                   <p class="mt-3 text-sm text-white/80">
                     Email:
-                    <a class="font-semibold text-white hover:text-white/80"
-                      href="mailto:info@northmarke.com">info@northmarke.com</a>
+                    <a class="font-semibold text-white hover:text-white/80" href="mailto:info@northmarke.com">
+                      info@northmarke.com
+                    </a>
                   </p>
                 </div>
               </div>
@@ -805,12 +678,19 @@
                 Contact Us
                 <i class="fa-solid fa-arrow-right"></i>
               </a>
+
+              <p class="mt-4 text-xs text-white/60">
+                “Amazon Web Services (AWS), Microsoft Azure, Google Cloud and Oracle Cloud Infrastructure (OCI) are
+                trademarks
+                of their respective owners. Use of these names does not imply endorsement.”
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
   </main>
+
 
 
 

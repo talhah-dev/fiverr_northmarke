@@ -1,30 +1,30 @@
 const navbar = document.getElementById("navbar");
 
 navbar.innerHTML = `
-<header class="sticky top-0 z-50 bg-white">
+<header class="sticky top-0 z-50 border-b border-slate-800 bg-slate-950">
   <nav class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="flex h-16 md:h-20 items-center justify-between">
       <a href="index.html" class="flex items-center gap-3">
-        <img src="/docs/assets/logo.png" class="h-10 md:h-12 w-auto" alt="Northmarke Group">
+        <img src="/docs/assets/logo.png" class="h-10 invert brightness-0 md:h-12 w-auto" alt="Northmarke Group">
       </a>
 
       <div class="hidden lg:flex items-center gap-8">
-        <a href="about.html" class="text-sm font-semibold text-slate-700 hover:text-slate-900">About</a>
-        <a href="services.html" class="text-sm font-semibold text-slate-700 hover:text-slate-900">Services</a>
-        <a href="impact.html" class="text-sm font-semibold text-slate-700 hover:text-slate-900">Impact</a>
-        <a href="contact.html" class="text-sm font-semibold text-slate-700 hover:text-slate-900">Contact</a>
+        <a href="about.html" class="text-sm font-semibold text-slate-200 hover:text-white">About</a>
+        <a href="services.html" class="text-sm font-semibold text-slate-200 hover:text-white">Services</a>
+        <a href="impact.html" class="text-sm font-semibold text-slate-200 hover:text-white">Impact</a>
+        <a href="contact.html" class="text-sm font-semibold text-slate-200 hover:text-white">Contact</a>
       </div>
 
       <div class="hidden lg:flex items-center gap-3">
         <a href="contact.html"
-          class="inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 text-sm font-semibold text-white transition hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-900/20">
+          class="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-white/30">
           Get in touch
           <i class="fa-solid fa-arrow-right"></i>
         </a>
       </div>
 
       <button id="navToggle" type="button"
-        class="lg:hidden inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-3 py-2 text-slate-900 hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-900/10"
+        class="lg:hidden inline-flex items-center justify-center rounded-xl border border-slate-800 bg-slate-900 px-3 py-2 text-white hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-white/20"
         aria-controls="mobileNav" aria-expanded="false">
         <i id="navOpenIcon" class="fa-solid fa-bars"></i>
         <i id="navCloseIcon" class="fa-solid fa-xmark !hidden"></i>
@@ -34,54 +34,54 @@ navbar.innerHTML = `
     <div id="mobileNav"
       class="lg:hidden overflow-hidden max-h-0 opacity-0 pointer-events-none transition-all duration-300 ease-in-out">
       <div class="pb-6 pt-2">
-        <div class="rounded-2xl border border-slate-200 bg-white p-3 shadow-sm">
+        <div class="rounded-2xl border border-slate-800 bg-slate-900 p-3 shadow-sm">
           <a href="about.html"
-            class="flex items-center justify-between rounded-xl px-3 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50">
+            class="flex items-center justify-between rounded-xl px-3 py-3 text-sm font-semibold text-slate-100 hover:bg-slate-800">
             <span class="flex items-center gap-3">
-              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-slate-900/10 text-slate-900">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white">
                 <i class="fa-solid fa-building"></i>
               </span>
               About
             </span>
-            <i class="fa-solid fa-angle-right text-slate-400"></i>
+            <i class="fa-solid fa-angle-right text-slate-500"></i>
           </a>
 
           <a href="services.html"
-            class="mt-1 flex items-center justify-between rounded-xl px-3 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50">
+            class="mt-1 flex items-center justify-between rounded-xl px-3 py-3 text-sm font-semibold text-slate-100 hover:bg-slate-800">
             <span class="flex items-center gap-3">
-              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-slate-900/10 text-slate-900">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white">
                 <i class="fa-solid fa-bolt"></i>
               </span>
               Services
             </span>
-            <i class="fa-solid fa-angle-right text-slate-400"></i>
+            <i class="fa-solid fa-angle-right text-slate-500"></i>
           </a>
 
           <a href="impact.html"
-            class="mt-1 flex items-center justify-between rounded-xl px-3 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50">
+            class="mt-1 flex items-center justify-between rounded-xl px-3 py-3 text-sm font-semibold text-slate-100 hover:bg-slate-800">
             <span class="flex items-center gap-3">
-              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-slate-900/10 text-slate-900">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white">
                 <i class="fa-solid fa-chart-line"></i>
               </span>
               Impact
             </span>
-            <i class="fa-solid fa-angle-right text-slate-400"></i>
+            <i class="fa-solid fa-angle-right text-slate-500"></i>
           </a>
 
           <a href="contact.html"
-            class="mt-1 flex items-center justify-between rounded-xl px-3 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50">
+            class="mt-1 flex items-center justify-between rounded-xl px-3 py-3 text-sm font-semibold text-slate-100 hover:bg-slate-800">
             <span class="flex items-center gap-3">
-              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-slate-900/10 text-slate-900">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-white">
                 <i class="fa-solid fa-paper-plane"></i>
               </span>
               Contact
             </span>
-            <i class="fa-solid fa-angle-right text-slate-400"></i>
+            <i class="fa-solid fa-angle-right text-slate-500"></i>
           </a>
 
           <div class="mt-3">
             <a href="contact.html"
-              class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-3 text-sm font-semibold text-white hover:bg-slate-800">
+              class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-200">
               Get in touch
               <i class="fa-solid fa-arrow-right"></i>
             </a>
