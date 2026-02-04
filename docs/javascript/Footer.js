@@ -35,7 +35,7 @@ footer.innerHTML = `
             </a>
 
             <a
-              href="https://www.patreon.com/c/Northmarke"
+              href="https://www.patreon.com/Northmarke"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex h-10 w-10 items-center justify-center rounded-full transition hover:text-white hover:bg-white/5 focus:outline-none focus-visible:ring-4 focus-visible:ring-white/20"
